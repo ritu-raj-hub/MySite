@@ -1,0 +1,163 @@
+body {
+  background-color : #E4F9F5;
+  margin : 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: grey;
+  width : 5%;
+  clear: both;
+}
+
+p {
+padding-bottom: 10px;
+margin-bottom: 0;
+
+}
+
+a {
+  color : #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color : #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.pic {
+  height : 150px;
+  width : 150px;
+  margin : 0 auto;
+  padding-top: 10px;
+}
+
+.skill-row {
+  width : 50%;
+  margin : 0 auto;
+  float : left;
+}
+
+.contact-me {
+  clear: both;
+}
+
+.contact-message {
+  width : 50%;
+  margin: 30px auto 50px;
+}
+
+.skill {
+
+}
+
+.mountain {
+  margin-bottom: 2rem;
+}
+
+.pro {
+  text-decoration : underline;
+}
+
+.top-container {
+  position: relative;
+  padding-top : 25px;
+}
+
+
+
+.top-cloud {
+  position : absolute;
+  top : 20px;
+  right: 360px;
+}
+
+.middle-container {
+background-color: #f4f9f9;
+}
+
+.bottom-container {
+background-color: #5eaaa8;
+font-family: 'Montserrat', sans-serif;
+padding: 25px 10px;
+}
+
+.btn {
+   background: #3DF6D1;
+   background-image: -webkit-linear-gradient(top, #3DF6D1, #1ED0B5);
+   background-image: -moz-linear-gradient(top, #3DF6D1, #1ED0B5);
+   background-image: -ms-linear-gradient(top, #3DF6D1, #1ED0B5);
+   background-image: -o-linear-gradient(top, #3DF6D1, #1ED0B5);
+   background-image: -webkit-gradient(to bottom, #3DF6D1, #1ED0B5);
+   -webkit-border-radius: 45px;
+   -moz-border-radius: 45px;
+   border-radius: 45px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 96px;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.btn:hover {
+   border: solid #0059A0 1px;
+   background: #2BC4AD;
+   background-image: -webkit-linear-gradient(top, #2BC4AD, #11999E);
+   background-image: -moz-linear-gradient(top, #2BC4AD, #11999E);
+   background-image: -ms-linear-gradient(top, #2BC4AD, #11999E);
+   background-image: -o-linear-gradient(top, #2BC4AD, #11999E);
+   background-image: -webkit-gradient(to bottom, #2BC4AD, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+.bottom-cloud {
+ position : absolute;
+
+}
