@@ -3,6 +3,7 @@ body {
   margin : 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  line-height: 1.5;
 }
 
 h1 {
@@ -62,9 +63,15 @@ a:hover {
   padding-top: 10px;
 }
 
+.introduction {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .skill-row {
   width : 50%;
-  margin : 0 auto;
+  height: 50%;
+  margin : 50px auto;
   float : left;
 }
 
