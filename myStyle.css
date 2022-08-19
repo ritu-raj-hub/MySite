@@ -1,7 +1,9 @@
 body {
-    text-align: center;
+    text-align: center;    
+    line-height: 1.6;
     font-family: 'Merriweather', serif;
     margin: 0px;
+    background: #7966bf;
 }
 
 h1 {
@@ -73,22 +75,33 @@ hr {
 .mypic {
     width: 150px;
     height: 150px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-.skill-pic {
-    width: 150px;
-    height: 150px;
+.profile {
+    width: 50%;
+    margin: 0px auto;
 }
 
-.skills {
-    display: grid;
-    grid-template-columns: auto auto;
+.skill-row.left .skill-pic {
+    width: 25%;
+    height: 80%;
+    float: left;
+    margin-right: 10px;
 }
 
-.skills h2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
+.skill-row.right .skill-pic {
+    width: 25%;
+    height: 80%;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
 }
 
 .contact-message {    
@@ -114,7 +127,7 @@ hr {
     -webkit-box-shadow: 0px 0px 5px #666666;
     -moz-box-shadow: 0px 0px 5px #666666;
     box-shadow: 0px 0px 5px #666666;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif; 
     color: #ffffff;
     font-size: 17px;
     padding: 10px 20px 10px 20px;
